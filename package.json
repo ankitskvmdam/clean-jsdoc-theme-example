@@ -1,0 +1,31 @@
+{
+  "name": "clean-jsdoc-theme-example",
+  "version": "1.0.0",
+  "description": "A repo which shows how to setup clean-jsdoc-theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "generate-docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitskvmdam/clean-jsdoc-theme-example.git"
+  },
+  "keywords": [
+    "clean-jsdoc-theme",
+    "clean",
+    "jsdoc",
+    "theme",
+    "example"
+  ],
+  "author": "Ankit Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankitskvmdam/clean-jsdoc-theme-example/issues"
+  },
+  "homepage": "https://github.com/ankitskvmdam/clean-jsdoc-theme-example#readme",
+  "dependencies": {
+    "clean-jsdoc-theme": "^3.2.10",
+    "jsdoc": "^3.6.7"
+  }
+}
