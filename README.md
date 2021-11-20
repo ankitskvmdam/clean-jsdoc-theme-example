@@ -23,7 +23,7 @@ yarn add clean-jsdoc-theme
 ```
 
 ## Setup
-At first you have to create a config file. Named that file as `jsdoc.json`. In `jsdoc.json` we have to add below properties:
+At first you have to create a config file. Name that file as `jsdoc.json`. In `jsdoc.json` you have to add some properties:
 ```json5
 {
     "source": {
