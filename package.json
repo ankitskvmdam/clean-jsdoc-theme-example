@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ankitskvmdam/clean-jsdoc-theme-example#readme",
   "dependencies": {
-    "clean-jsdoc-theme": "^3.2.10",
+    "clean-jsdoc-theme": "^3.3.0",
     "jsdoc": "^3.6.7"
   }
 }
