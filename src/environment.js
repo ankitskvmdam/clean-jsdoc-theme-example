@@ -28,7 +28,7 @@ class Environment {
 }
 
 /**
- * @typedef {Object} EnvironmentConfiguration
+ * @typedef {Object} Environment
  * @property {String} name
  * @property {Map<String,Number>} strange
  */

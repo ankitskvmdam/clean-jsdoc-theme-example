@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "generate-docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+    "generate-docs": "jsdoc --configure jsdoc.json --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/ankitskvmdam/clean-jsdoc-theme-example#readme",
   "dependencies": {
-    "clean-jsdoc-theme": "^3.3.0",
-    "jsdoc": "^3.6.7"
+    "clean-jsdoc-theme": "^3.3.0"
   }
 }
