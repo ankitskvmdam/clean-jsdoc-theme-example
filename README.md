@@ -69,7 +69,7 @@ For clean-jsdoc-theme opts visit
 ## Generate docs
 1. Add a generate script to package.json.
 ```json
-"script": {
+"scripts": {
     // ...other scripts
     // Generate docs script below.
     "generate-docs": "jsdoc --configure jsdoc.json --verbose"
