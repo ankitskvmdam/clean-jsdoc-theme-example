@@ -1,2 +1,6 @@
 node_modules
 output
+
+# Generated documentation output
+jsdoc-example/docs
+typedoc-example/dist

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/index.ts"],
+  "tsconfig": "tsconfig.json",
+  "readme": "README.md",
+  "plugin": ["@clean-jsdoc-theme/typedoc"],
+  "outputs": [{ "name": "clean-jsdoc-theme", "path": "dist" }],
+  "cleanJsdocTheme": {
+    "siteName": {
+      "light": "./assets/clean-jsdoc-theme.svg",
+      "dark": "./assets/clean-jsdoc-theme-white.svg",
+      "alt": "Typedoc example"
+    },
+    "sectionOrder": [
+      "Core",
+      "Shapes",
+      "Modules",
+      "Namespaces",
+      "Classes",
+      "Interfaces",
+      "Enums",
+      "Typedefs",
+      "Globals"
+    ],
+    "clubSidebarItems": true,
+    "copyPage": true
+  }
+}
