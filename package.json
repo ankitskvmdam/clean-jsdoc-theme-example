@@ -4,7 +4,7 @@
   "description": "A repo which shows how to setup clean-jsdoc-theme",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "serve": "serve -l 3010 docs",
     "generate-docs": "jsdoc --configure jsdoc.json --verbose"
   },
   "repository": {
@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/ankitskvmdam/clean-jsdoc-theme-example#readme",
   "dependencies": {
-    "clean-jsdoc-theme": "^3.3.0"
+    "clean-jsdoc-theme": "5.0.0-alpha.1",
+    "jsdoc": "^4.0.5"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
   }
 }

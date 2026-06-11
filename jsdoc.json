@@ -1,21 +1,20 @@
 {
-    "source": {
-        "include": ["src", "README.md"]
-    },
-     "templates": {
-      "default": {
-        "outputSourceFiles": true
-      }
-    },
-    "opts": {
-        "encoding": "utf8",
-        "readme": "./README.md",
-        "destination": "docs/",
-        "recurse": true,
-        "verbose": true,
-        "tutorials": "./tutorials",
-        "theme_opts": {
-            "theme": "dark"
-        }
+  "source": {
+    "include": ["src", "README.md"]
+  },
+  "templates": {
+    "default": {
+      "outputSourceFiles": true
     }
+  },
+  "plugins": ["plugins/markdown"],
+  "opts": {
+    "encoding": "utf8",
+    "readme": "./README.md",
+    "destination": "docs/",
+    "recurse": true,
+    "verbose": true,
+    "tutorials": "./tutorials",
+    "template": "./node_modules/clean-jsdoc-theme/dist"
+  }
 }
