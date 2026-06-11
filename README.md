@@ -20,7 +20,7 @@ Both produce the same kind of output — the only difference is the doc generato
 cd jsdoc-example
 npm install
 npm run generate-docs   # output → docs/
-npm run serve           # preview at http://localhost:3010
+npm run serve           # preview at http://localhost:3001
 
 # TypeDoc
 cd typedoc-example
