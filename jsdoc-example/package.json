@@ -4,7 +4,7 @@
   "description": "A repo which shows how to setup clean-jsdoc-theme",
   "main": "index.js",
   "scripts": {
-    "serve": "serve -l 3010 docs",
+    "serve": "serve -l 3001 docs",
     "generate-docs": "jsdoc --configure jsdoc.json --verbose"
   },
   "repository": {
